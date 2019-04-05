@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:key="info"
+        android:title="Info"
+        android:summary="Select which site to get JSON data from"
+        android:defaultValue="http://www.pcs.cnu.edu/~kperkins/pets/pets.json"
+        android:entries="@array/JSON_URL_NAME"
+        android:entryValues="@array/JSON_URL"/>
+</PreferenceScreen>

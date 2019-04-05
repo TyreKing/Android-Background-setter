@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CPSC475P3</string>]
+
+    <string-array name="p3_array">
+        <item>Barry</item>
+        <item>Crumpet</item>
+        <item>Rugby</item>
+        <item>Laurence</item>
+    </string-array>
+    <string-array name="JSON_URL_NAME">
+        <item>CNU - Defender</item>
+        <item>Pair - Teton Software - Pets</item>
+    </string-array>
+    <string-array name="JSON_URL">
+        <item>http://www.pcs.cnu.edu/~kperkins/pets/pets.json</item>
+        <item>http://www.tetonsoftware.com/pets/</item>
+    </string-array>
+</resources>

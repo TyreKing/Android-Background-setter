@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/imageView"
+    android:scaleType="fitXY">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/colorPrimary"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <Spinner
+            android:id="@+id/p3_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+        <ImageView
+            android:id="@+id/pref"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="175dp"
+            android:onClick="showPreferenceActivity"
+            app:srcCompat="@android:drawable/ic_menu_preferences" />
+
+
+    </android.support.v7.widget.Toolbar>
+    <TextView
+        android:id="@+id/tvLarge"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="191dp"
+        android:background="#00cccccc"
+        android:gravity="center"
+        android:text="Issues!"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvSmall"
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="51dp"
+        android:background="#00cccccc"
+        android:gravity="center"
+        android:text="Network is unreachable"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+</RelativeLayout>
